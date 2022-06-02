@@ -1,0 +1,37 @@
+.MainContent{        
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    width:100vw;
+}
+
+.MainContent h1{
+    font-size: 1.8em;
+    font-weight: 100;
+    display: inline-block;
+    width:100vw;
+    margin-bottom: 50px;
+    text-align: center
+}
+
+.configure-border-1:nth-child(1){
+    border: 3px solid rgb(213, 216, 32);
+}
+
+/*==========  Mobile First   ==========*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1300px) {
+
+    
+}

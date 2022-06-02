@@ -1,0 +1,56 @@
+.NavBar {
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    top:0;
+    left: 0;
+    z-index: 100;
+    box-sizing: border-box;
+}
+.NavBar .wrapper{
+    background-color: var(--colorOne);
+    transition: ease-in 0.5s;
+    position: relative;
+
+}
+.NavBar img{
+    width: 10em;
+    margin-left: 10px;
+}
+
+/* STOPPING ANIMATION FROM GOING OFF ON WINDOW RESIZE */
+.resize-animation-stopper {
+    animation: none !important;
+    transition: none !important;
+}
+
+/*changes color of nav bar*/
+.activeNav{
+    background-color: rgb(255, 255, 255) !important;
+    transition: ease-in 0.5s;
+}
+
+/*==========  Mobile First   ==========*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .NavBar img{
+        max-width: 300px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1300px) {
+    .NavBar img{
+        position: absolute;
+        top: 5%;
+    }
+    .NavBar .wrapper{
+        height: 70px;
+    }
+}

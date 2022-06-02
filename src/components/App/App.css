@@ -1,0 +1,43 @@
+.App{
+    overflow: hidden;    
+    font-size: 2em;
+
+}
+
+.App .transtion{
+    background: linear-gradient(180deg, var(--colorOne) 7%, black 100%);
+    padding: 15vh;
+    margin: 0;
+}
+
+
+.ScrollArrow{
+    width: 0.5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    cursor: pointer;
+    padding: 10px;
+}
+
+/*==========  Mobile First   ==========*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .ScrollArrow{
+        width: 0.3em;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1300px) {
+
+    .ScrollArrow{
+        width: 0.2em;
+    }
+
+}

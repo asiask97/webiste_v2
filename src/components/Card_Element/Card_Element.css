@@ -1,0 +1,198 @@
+.Card_Element{
+    box-sizing: border-box;
+    width:50vw;
+    overflow: hidden;
+    display: grid;
+    border-left: 1px solid white;
+    padding: 0px 10px;
+    margin-bottom: 50px;
+}
+
+.Card_Element img{
+    justify-self: center;
+    width: 2.5em;
+    display: inline-block;
+}
+
+.Card_Element h2{
+    display: inline-block;
+    position: relative;
+    bottom: -3em;
+    margin: 0;
+    margin-top: 5em;
+    font-weight: 100;
+}
+
+.Card_Element .activeH2{
+    position: static;
+    animation: slide_uph2 2s;
+}
+
+.Card_Element .inactiveH2{
+    animation: slide_downh2 2s;
+}
+
+.Card_Element p{
+    height: 5em;
+    margin: 0;
+    position: relative;
+    bottom: 50000px;
+}
+
+.Card_Element .activeP{
+    animation: slide_up 2s;
+    position: static;
+}
+
+.Card_Element .inactiveP{
+    animation: slide_down 1.5s;
+
+}
+
+  
+@keyframes slide_down{
+    from{
+        transform: translateY(10%); 
+        opacity: 0.2;
+        position: static;
+    }
+    
+    to{
+        transform: translateY(100%); 
+        opacity: 1;    
+    }
+} 
+
+@keyframes slide_up {
+    from{
+        transform: translateY(100%); 
+        opacity: 0.2;
+    }
+    
+    to{
+        transform: translateY(0%); 
+        opacity: 1;
+    }
+}
+
+@keyframes slide_uph2 {
+    from{
+        transform: translateY(150%); 
+    }
+    
+    to{
+        transform: translateY(0%); 
+
+    }
+}
+
+@keyframes slide_downh2{
+    from{
+        transform: translateY(-10vh); 
+    }
+    
+    to{
+        transform: translateY(20%); 
+    }
+}
+
+/* animated sippiner */
+.Card_Element .spinner-box{
+    justify-self: center;
+    margin: 25px;
+    width: 2.5em;
+
+}
+
+.Card_Element .configure-border-1 {
+    width: 2.5em;
+    height: 2.5em;
+    padding: 3px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.Card_Element .configure-border-1-active {
+    animation: configure-clockwise 3s ease-in-out 0s infinite alternate;
+}
+  
+.Card_Element .configure-border-2 {
+    width: 2.5em;
+    height: 2.5em;
+    padding: 3px;
+    left: -115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #9ddbb9;
+    background: transparent;
+}
+
+.Card_Element .configure-border-2-active{
+    transform: rotate(45deg);
+    animation: configure-xclockwise 3s ease-in-out 0s infinite alternate;
+
+}
+
+.Card_Element .configure-core {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+
+@keyframes configure-clockwise {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes configure-xclockwise {
+  0% {
+    transform: rotate(45deg);
+  }
+  25% {
+    transform: rotate(-45deg);
+  }
+  50% {
+    transform: rotate(-135deg);
+  }
+  75% {
+    transform: rotate(-225deg);
+  }
+  100% {
+    transform: rotate(-315deg);
+  }
+}
+/*==========  Mobile First   ==========*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1300px) {
+
+    
+}
