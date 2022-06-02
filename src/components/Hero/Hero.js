@@ -12,7 +12,7 @@ function Hero() {
           <h1>SOMETHING </h1>
           <h1>PARTNER IN CRYPO </h1>
           <h1>CURRENCY MARKET</h1>
-          <div className='arrowWrapper'><SmoothScrollArrow scrollTo="MainPanel_Right_One"/></div>
+          <div className='arrowWrapper'><SmoothScrollArrow scrollTo="MainContent"/></div>
       </div>
     </div>
   );

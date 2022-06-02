@@ -11,17 +11,17 @@ import React, { useRef } from 'react';
 
 function MainContent() {
     const visibleContainerRef = useRef();
-    const [visibleContainer] = useOnScreen({threshold: 0.5}, visibleContainerRef)
+    const [visibleContainer] = useOnScreen({threshold: 0.2}, visibleContainerRef)
     //    <div ref={visibleContainerRef} className="MainContent">
 
     const colors = {one:'#C5E6A6', two:'#C3BEF7', three:'#6294C0', four:'#93A9DC'}
   return (
-    <div ref={visibleContainerRef} className="MainContent">
+    <div ref={visibleContainerRef} className="MainContent" id='MainContent'>
       <h1>Some Text abut being the gartest leader in  Europe</h1>
-      <Card_Element colour={colors.one}/>
-      <Card_Element colour={colors.two}/>
-      <Card_Element colour={colors.three}/>
-      <Card_Element colour={colors.four}/>
+      <Card_Element colour={colors.one} num='1'/>
+      <Card_Element colour={colors.two} num='2'/>
+      <Card_Element colour={colors.three} num='3'/>
+      <Card_Element colour={colors.four} num='4'/>
       <RadialBackground style={visibleContainer} />
         {/*<RadialBackground style={visibleContainer} />
         <MainPanel_Right  scrollTo ='MainPanel_Left_Two'/>

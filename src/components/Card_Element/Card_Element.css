@@ -1,17 +1,12 @@
 .Card_Element{
     box-sizing: border-box;
-    width:50vw;
+    justify-content: center;
+    width:70vw;
     overflow: hidden;
     display: grid;
-    border-left: 1px solid white;
+    border-bottom: 1px solid white;
     padding: 0px 10px;
     margin-bottom: 50px;
-}
-
-.Card_Element img{
-    justify-self: center;
-    width: 2.5em;
-    display: inline-block;
 }
 
 .Card_Element h2{
