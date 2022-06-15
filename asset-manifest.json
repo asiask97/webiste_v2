@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/webiste_v2/static/css/main.8c737f59.css",
-    "main.js": "/webiste_v2/static/js/main.a7fdc174.js",
-    "static/media/video.mp4": "/webiste_v2/static/media/video.4fc342b17d3316eef4dc.mp4",
-    "static/media/logoDarkBg.svg": "/webiste_v2/static/media/logoDarkBg.f3359772d60bfdb2a92a2a17313a4824.svg",
-    "static/media/logoLightBg.svg": "/webiste_v2/static/media/logoLightBg.689e999a7b7e4f060cacb459d4bed121.svg",
-    "static/media/linkedin.svg": "/webiste_v2/static/media/linkedin.2eda7bddaacee15c44494bb63ca94165.svg",
-    "index.html": "/webiste_v2/index.html",
-    "static/media/arrow.svg": "/webiste_v2/static/media/arrow.de7df644309d52fb19a7498396237474.svg",
-    "static/media/email.svg": "/webiste_v2/static/media/email.ceed57e9483391a79813f313693eb103.svg",
-    "main.8c737f59.css.map": "/webiste_v2/static/css/main.8c737f59.css.map",
-    "main.a7fdc174.js.map": "/webiste_v2/static/js/main.a7fdc174.js.map"
+    "main.css": "/static/css/main.8c737f59.css",
+    "main.js": "/static/js/main.e4d99a87.js",
+    "static/media/video.mp4": "/static/media/video.4fc342b17d3316eef4dc.mp4",
+    "static/media/logoDarkBg.svg": "/static/media/logoDarkBg.f3359772d60bfdb2a92a2a17313a4824.svg",
+    "static/media/logoLightBg.svg": "/static/media/logoLightBg.689e999a7b7e4f060cacb459d4bed121.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.2eda7bddaacee15c44494bb63ca94165.svg",
+    "index.html": "/index.html",
+    "static/media/arrow.svg": "/static/media/arrow.de7df644309d52fb19a7498396237474.svg",
+    "static/media/email.svg": "/static/media/email.ceed57e9483391a79813f313693eb103.svg",
+    "main.8c737f59.css.map": "/static/css/main.8c737f59.css.map",
+    "main.e4d99a87.js.map": "/static/js/main.e4d99a87.js.map"
   },
   "entrypoints": [
     "static/css/main.8c737f59.css",
-    "static/js/main.a7fdc174.js"
+    "static/js/main.e4d99a87.js"
   ]
 }
