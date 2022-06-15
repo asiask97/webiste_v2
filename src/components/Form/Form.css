@@ -1,0 +1,55 @@
+.Form{
+    color: black;
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+.Form .form_inputs{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    padding-top: 2em;
+}
+
+.Form .form_input{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    outline: none; 
+    border: none;
+    margin-top: 2em;
+    border-bottom: 1px solid black;
+}
+.Form textarea{
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.Form .form_input:last-child{
+    border: 1px solid rgb(155, 155, 155);
+    background-color: white;
+    width: 50%;
+    padding: 0.8em;
+}
+
+.Form .form_input:last-child:hover{
+    background-color: rgb(86, 187, 128);
+    color: white;
+    border: 1px solid rgb(86, 187, 128);
+    transition: 0.3s ease-in-out;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .Form .form_inputs{
+        padding-bottom: 50px;
+        border-right:1px solid black;
+    }
+}    
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1300px) {
+   
+
+}

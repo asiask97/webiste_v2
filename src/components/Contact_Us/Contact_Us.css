@@ -1,0 +1,84 @@
+.Contact_Us{
+    margin-top: 5em;
+}
+.Contact_Us .contact_heading, .Contact_Us h1, .Contact_Us p{
+    margin: 0px;
+}
+
+.Contact_Us .contact_heading{
+    position: relative;
+    top:0.5em;
+}
+
+.Contact_Us .form_body{ 
+    background-color: white;
+}
+
+.Contact_Us .contact_Info{
+    color: #000;
+    background-color: white;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    font-size: 0.8em;
+}
+
+.Contact_Us .contact_Info img,p{
+   display: inline-block;
+   margin-right: 10px;
+   height: 1em;
+}
+
+.Contact_Us .contact_email_container{
+    border-top:1px solid rgb(206, 206, 206);
+    padding-top: 20px;
+}
+.Contact_Us .contact_linkedin_container{
+    padding-bottom: 50px;
+}
+.Contact_Us .contact_email_container, .Contact_Us .contact_linkedin_container{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+/*==========  Mobile First   ==========*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .Contact_Us .responisve_container{
+        display: grid;
+        grid-template-columns: 10% 50% 30% 10%;
+        background-color: white;
+        padding-bottom: 10vh;
+    }
+
+    .Contact_Us .contact_Info{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        font-size: 0.5em;
+    }
+
+    .Contact_Us .contact_email_container{
+        align-self: end;
+        border: none;
+    }
+    .Contact_Us .form_body{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .Contact_Us{
+        margin-top: 2.3em;
+    }
+}    
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1300px) {
+    .Contact_Us .contact_Info{
+        font-size: 0.3em;
+    }
+
+}

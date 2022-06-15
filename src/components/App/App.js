@@ -2,9 +2,9 @@ import './App.css';
 import Hero from '../Hero/Hero.js';
 import NavBar from '../NavBar/NavBar.js';
 import MainContent from '../MainContent/MainContent';
+import Contact_Us from '../Contact_Us/Contact_Us';
 import React from 'react';
-
-import { useEffect } from 'react'
+import Action_Call from '../Action_Call/Action_Call';
 
 function App() {
   /*useEffect(() => {
@@ -16,61 +16,8 @@ function App() {
       <Hero/>
       <div className='transtion'></div>
       <MainContent/>
-      <div id='idk'>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
-      <div>s</div>
+      <Action_Call/>
+      <Contact_Us/>
 
     </div>
   );

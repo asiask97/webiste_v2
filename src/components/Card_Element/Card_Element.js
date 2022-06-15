@@ -12,8 +12,8 @@ return (
             <div style={{border:`3px solid ${props.colour}`}} className={visibleContainer ? 'configure-border-1 configure-border-1-active' : 'configure-border-1'}><h3>{props.num}</h3></div>  
             <div className={visibleContainer ? 'configure-border-2 configure-border-2-active' : 'configure-border-2'}></div> 
         </div>
-        <h2 className={visibleContainer ? 'activeH2' : 'inactiveH2'}>Focused Mission</h2>
-        <p className={visibleContainer ? 'activeP' : 'inactiveP'}>Sed maximus imperdiet libero ut fringilla. Integer nulla leo.</p>
+        <h2 className={visibleContainer ? 'activeH2' : 'inactiveH2'}>{props.heading}</h2>
+        <p className={visibleContainer ? 'activeP' : 'inactiveP'}>{props.bodyText}</p>
     </div>
   );
 }

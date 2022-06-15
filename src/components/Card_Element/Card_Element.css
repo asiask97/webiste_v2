@@ -1,20 +1,22 @@
 .Card_Element{
     box-sizing: border-box;
-    justify-content: center;
     width:70vw;
     overflow: hidden;
     display: grid;
     border-bottom: 1px solid white;
     padding: 0px 10px;
     margin-bottom: 50px;
+    justify-self: center;
 }
 
+
+/*  ANIMATION OF TEXT APPEARING */  
 .Card_Element h2{
     display: inline-block;
     position: relative;
-    bottom: -3em;
+    bottom: -10%;
     margin: 0;
-    margin-top: 5em;
+    margin-top: 22vh;
     font-weight: 100;
 }
 
@@ -28,8 +30,11 @@
 }
 
 .Card_Element p{
-    height: 5em;
     margin: 0;
+    box-sizing: border-box;
+    max-height: 2.5em;
+    min-height: 2.5em;
+    margin-top: 5px;
     position: relative;
     bottom: 50000px;
 }
@@ -44,7 +49,6 @@
 
 }
 
-  
 @keyframes slide_down{
     from{
         transform: translateY(10%); 
@@ -83,11 +87,11 @@
 
 @keyframes slide_downh2{
     from{
-        transform: translateY(-10vh); 
+        transform: translateY(-50%); 
     }
     
     to{
-        transform: translateY(20%); 
+        transform: translateY(10%); 
     }
 }
 
@@ -95,8 +99,7 @@
 .Card_Element .spinner-box{
     justify-self: center;
     margin: 25px;
-    width: 2.5em;
-
+    width: auto;
 }
 
 .Card_Element .configure-border-1 {
@@ -174,10 +177,30 @@
     transform: rotate(-315deg);
   }
 }
-/*==========  Mobile First   ==========*/
 
+
+/*==========  Mobile First   ==========*/
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+    .Card_Element{
+        width:35vw;
+        grid-column :2 / 3;
+    }
+    
+    .Card_Element h2{
+        font-size: 0.5em;
+    }
+
+    .Card_Element p{
+        font-size: 0.3em;
+    }
+
+    .Card_Element .configure-border-1, .Card_Element .configure-border-2 {
+        width: 1.5em;
+        height: 1.5em;
+        font-size: 0.3em;
+    }
+        
 
 }
 
@@ -188,6 +211,25 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1300px) {
+    
+    .Card_Element{
+        width:435px;
+        justify-self: start;
 
+    }
+
+    .Card_Element h2{
+        font-size: 26px;
+    }
+
+    .Card_Element p{
+        font-size: 15.5px;
+    }
+
+    .Card_Element .configure-border-1, .Card_Element .configure-border-2 {
+        width: 2em;
+        height: 2em;
+        font-size: 0.3em;
+    }
     
 }

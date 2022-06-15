@@ -1,0 +1,98 @@
+.Action_Call{
+    margin-top: 300px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+
+
+}
+
+.Action_Call video{
+    position: relative;
+    width: 250vw;
+    z-index: 1;    
+    filter: brightness(0.7);
+    max-width: 1395px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.Action_Call .action_call_text{
+    z-index: 2;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.Action_Call h3{
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    border-bottom: 1px solid white;
+    text-align: left;
+
+}
+
+.Action_Call h2{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    line-height: 90%;
+    font-weight: 300;
+    font-size: 3em;
+    text-align: left;
+}
+
+
+@keyFrames slide {
+    from {
+      transform: translateX(-350%);
+    }
+    25% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    70% {
+        transform: translateX(0);
+    }
+    to {
+      transform: translateX(350%);
+    }
+}
+
+
+/*==========  Mobile First   ==========*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .Action_Call h3{
+        font-size: 40px;
+    }
+
+    .Action_Call h2{
+        font-size: 92px;
+    }
+
+    .Action_Call .action_call_text{
+        width:442px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1300px) {
+
+    .Action_Call video{
+        margin: 0 auto;   
+        left: 0%;
+        transform: translate(0%); 
+    }
+}
