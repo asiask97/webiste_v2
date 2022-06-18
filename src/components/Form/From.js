@@ -156,7 +156,7 @@ function Form() {
           </textarea>
           <div className='recaptcha'>
             <ReCAPTCHA
-                sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
+                sitekey='6Lejw3YgAAAAAKEnb6j9X0cktYVQNCzEfuMp3cMv'
                 onChange={verifyCallBack}
                 ref={recaptchaRef}
             />
