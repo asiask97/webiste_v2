@@ -1,5 +1,6 @@
 # Getting Started with Create React App
-
+# Art Studio  - HTML and CSS only project.
+![Alt Text] (https://gifyu.com/image/SHXpa)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
