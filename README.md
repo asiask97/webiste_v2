@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 # Art Studio  - HTML and CSS only project.
-![Alt Text] (https://media3.giphy.com/media/tWqhi8e7B6wvd1wHAr/giphy.gif)
+![Alt Text](https://media3.giphy.com/media/tWqhi8e7B6wvd1wHAr/giphy.gif)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
